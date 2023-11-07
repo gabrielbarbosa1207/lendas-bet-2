@@ -44,7 +44,7 @@ const addSpinAnimation = (element) => {
       } catch (error) {
         console.error("Error changing section displays: ", error);
       }
-    }, 4000);
+    }, 7000);
   });
 };
 
