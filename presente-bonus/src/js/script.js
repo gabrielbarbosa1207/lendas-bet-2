@@ -12,7 +12,7 @@ const animateSpin = () => {
       const pageContent = document.querySelector('#page-content');
       if (formElem) formElem.classList.remove('hide-me');
       if (pageContent) pageContent.classList.add('page-content');
-    }, 4000);
+    }, 6000);
   }
 };
 
@@ -22,7 +22,7 @@ const animateSteps = (number) => {
   if (stepLoaded) stepLoaded.classList.add('loaded');
   setTimeout(() => {
     if (barLoaded) barLoaded.classList.add('loaded');
-  }, 700);
+  }, 6000);
 };
 
 const addSpinAnimation = (element) => {
@@ -44,7 +44,7 @@ const addSpinAnimation = (element) => {
       } catch (error) {
         console.error("Error changing section displays: ", error);
       }
-    }, 7000);
+    }, 6100);
   });
 };
 

@@ -141,7 +141,7 @@ body {
 }
 
 .spinner {
-    animation: spinner 1.5s ease-in-out infinite;
+    animation: spinner 5s ease-in-out infinite;
     width: 100%;
 }
 
@@ -180,11 +180,11 @@ body {
 }
 
 .wheel__spinner_animated-1 {
-    animation: 4s spinToOne ease-in-out 1;
+    animation: 5s spinToOne ease-in-out 1;
 }
 
 .wheel__spinner_animated-2 {
-    animation: 4.5s spinToTwo ease-in-out 1 forwards;
+    animation: 5s spinToTwo ease-in-out 1 forwards;
 }
 
 .loading-bar {
