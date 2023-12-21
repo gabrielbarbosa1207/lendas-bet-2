@@ -110,8 +110,8 @@ min-height: 100vh;
 }
 
 .section-02{
-    background-image: url("../img/background-bonus.png");
-    /* background-color: #000; */
+    /* background-image: url("../img/background-bonus.png"); */
+    background-color: darkred;
 }
 
 .section-02{
@@ -220,7 +220,8 @@ p {
 
 .content {
   width: 100%;
-  background-image: url("../img/background-bonus.png");
+  /* background-image: url("../img/background-bonus.png"); */
+  background-color: darkred;
   margin-top: -90px;
 }
 

@@ -22,13 +22,20 @@ const animateSpin = () => {
     roleta2.classList.remove('spinner');
     roleta2.classList.add('wheel__spinner_animated-1');
 
+      // Play the audio
+  const rouletteAudio = document.getElementById('rouletteAudio');
+  if (rouletteAudio) {
+    rouletteAudio.play();
+  }
+
+
     setTimeout(() => {
       roleta2.classList.remove('wheel__spinner_animated-1');
       const formElem = document.querySelector('form');
       const pageContent = document.querySelector('#page-content');
       if (formElem) formElem.classList.remove('hide-me');
       if (pageContent) pageContent.classList.add('page-content');
-    }, 6000);
+    }, 12000);
   }
 };
 
@@ -38,7 +45,7 @@ const animateSteps = (number) => {
   if (stepLoaded) stepLoaded.classList.add('loaded');
   setTimeout(() => {
     if (barLoaded) barLoaded.classList.add('loaded');
-  }, 6000);
+  }, 12000);
 };
 
 const addSpinAnimation = (element) => {
