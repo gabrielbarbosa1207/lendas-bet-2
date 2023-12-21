@@ -1,8 +1,8 @@
 /* eslint-disable linebreak-style */
 
 
-var tmin = 3;
-var tseg = 15;
+var tmin = 2;
+var tseg = 40;
   
 var tpitch = (tmin * 60000) + (tseg * 1000);
 setTimeout('show()', tpitch);
