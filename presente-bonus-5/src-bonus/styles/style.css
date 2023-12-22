@@ -111,7 +111,7 @@ min-height: 100vh;
 
 .section-02{
     /* background-image: url("../img/background-bonus.png"); */
-    background-color: darkred;
+    background-color: black;
 }
 
 .section-02{
@@ -221,7 +221,7 @@ p {
 .content {
   width: 100%;
   /* background-image: url("../img/background-bonus.png"); */
-  background-color: darkred;
+  background-color: black;
   margin-top: -90px;
 }
 
@@ -236,8 +236,8 @@ body {
 
 
 iframe{
-  width: 100%;
-  height: 730px;
+  width: 90%;
+  height: 800px;
 }
 
 .div-frame{
