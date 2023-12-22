@@ -179,11 +179,11 @@ body {
 }
 
 .wheel__spinner_animated-1 {
-    animation: 5s spinToOne ease-in-out 1;
+    animation: 11s spinToOne ease-in-out 1;
 }
 
 .wheel__spinner_animated-2 {
-    animation: 5s spinToTwo ease-in-out 1 forwards;
+    animation: 11s spinToTwo ease-in-out 1 forwards;
 }
 
 .loading-bar {
