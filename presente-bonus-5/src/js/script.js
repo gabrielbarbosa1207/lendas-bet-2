@@ -40,7 +40,8 @@ const animateSpin = () => {
         winAudio.play();
       }
 
-      const btn = document.getElementsByClassName("button-roulette")
+      const btn = document.getElementById
+      ("button-roulette")
       if(btn){
         btn.style.display = "none"
       }
